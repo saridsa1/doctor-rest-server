@@ -1,0 +1,9 @@
+{
+
+  "doctor-rest-server" : {
+    "connectionProfileName":"defaultProfile",
+    "networkIdentifier":"com.novartis.iandd",
+    "enrollmentId":"AC_Chetan",
+    "enrollmentSecret":"rMyXNBmGQAtr"
+  }
+}

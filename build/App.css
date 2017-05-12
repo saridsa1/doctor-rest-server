@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.align-center{
+  margin-left: 30%;
+}
+
+.pivot-align{
+  margin-top: 3.2%;
+  margin-left: 10%;
+}
+
+.large-dialog{
+  z-index: 99998
+}
+
+.large-dialog .ms-Dialog-main{
+  max-width: 500px;
+  width:  98%;
+}
+
+.scrollDetailsList {
+    width: 99%;
+    padding-top: 10px;
+}
+
+@import "https://fonts.googleapis.com/css?family=Alfa+Slab+One";
+.FourOhFour {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #121212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.FourOhFour .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  mix-blend-mode: overlay;
+}
+.FourOhFour .code {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 144px;
+  height: 100vh;
+  color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-position: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
